@@ -33,7 +33,12 @@ public:
 
 
 private:
+
+	//MovePerson
 	void MoveForward(float Amount);
 	void MoveRight(float Amount);
 	
+	//MoveCamera
+	void LookUp(float Amount);
+	void TurnAround(float Amount);
 };
